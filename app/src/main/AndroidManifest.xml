@@ -16,7 +16,7 @@
         android:theme="@style/Theme.VolindoTakeHomeTest"
         tools:targetApi="35">
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.landing.MainActivity"
             android:exported="true"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustResize"
