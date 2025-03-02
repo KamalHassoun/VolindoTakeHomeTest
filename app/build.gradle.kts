@@ -82,6 +82,7 @@ dependencies {
 
     //Coil Image
     implementation(libs.coil.compose)
+    implementation(libs.coil.gif)
 
     //Paging
     implementation(libs.paging.runtime.ktx)
@@ -91,6 +92,7 @@ dependencies {
     implementation(libs.media3.exoplayer)
     implementation(libs.media3.exoplayer.dash)
     implementation(libs.media3.ui)
+    implementation(libs.media3.datasource)
 
     //Accompanist
     implementation(libs.accompanist.pager.indicators)

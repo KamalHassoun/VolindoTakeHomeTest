@@ -20,7 +20,7 @@ class FeedRepositoryImpl @Inject constructor(
         return Pager(
             config = PagingConfig(
                 pageSize = 60,
-                prefetchDistance = 6
+                prefetchDistance = 20
             ),
             pagingSourceFactory = {
                 ImgurPagingSource(
